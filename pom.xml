@@ -5,6 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>open-ttn-connector</name>
   <description>Connect TTN to the open.WARE Platform</description>
+  <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
    <build>
     <plugins>
       <plugin>
